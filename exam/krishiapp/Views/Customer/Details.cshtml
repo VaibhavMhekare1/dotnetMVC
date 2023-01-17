@@ -1,0 +1,18 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Customer Details";
+}
+
+@{
+    Customer curcust= ViewData["customer"] as Customer;
+    <h2>Customer Details</h2>
+    <hr><br/>
+    <div>
+        <b>Customer ID : </b>@curcust.cid<br/>
+        <b>Customer Name : </b>@curcust.cname<br/>
+        <b>Customer Address : </b>@curcust.address<br/>
+        <b>Customer Email : </b>@curcust.email<br/>
+        <b>Customer Password : </b>@curcust.password<br/>
+    </div>
+
+}

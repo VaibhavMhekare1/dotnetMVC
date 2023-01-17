@@ -1,0 +1,23 @@
+@using BOL;
+@model Customer;
+@{
+    ViewData["Title"] = "Update Details";
+}
+<h1 class="display-4">Update Details</h1>
+<div class="text-center">
+    
+    <hr/>
+    <form action="/customer/update" method="post">
+        <input type="number" name="cid" id="cid" asp-for="cid" placeholder="Enter Name" readonly/><br/>
+        <b>customer ID</b><br/><br/>
+        <input type="text" name="cname" id="cname" asp-for="cname" placeholder="Enter Name"/><br/>
+        <b>Name</b><br/><br/>
+        <input type="text" name="address" id="address"asp-for="address" placeholder="Enter Address"/><br/>
+        <b>Address</b><br/><br/>
+        <input type="email" name="email" id="email" asp-for="email" placeholder="Enter Email"/><br/>
+        <b>Email</b><br/><br/>
+        <input type="password" name="password" id="password" asp-for="password"  placeholder="Enter Password"/><br/>
+        <b>Password</b><br/><br/>
+        <button type="submit">Update</button>
+    </form>
+</div>

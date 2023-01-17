@@ -1,0 +1,41 @@
+﻿@using BOL;
+@{
+    ViewData["Title"] = "Customer Page";
+}
+    <h1 class="display-4">All Customer</h1>
+    <hr/><br/>
+<div class="text-center">
+
+    @{
+        List<Customer> allcustomer = (List<Customer>)ViewData["customers"];
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+        @foreach (var cust in allcustomer)
+        {
+                    
+                    <tr>
+                        <th scope="row">@cust.cid</th>
+                        <td> @cust.cname </td>
+                        <td>@cust.address</td>
+                        <td>@cust.email</td>
+                        <td><a href="/customer/details/@cust.cid"><button>View</button></a>&nbsp;&nbsp;
+                        <a href="/customer/delete/@cust.cid"><button>Delete</button></a>&nbsp;&nbsp;
+                        <a href="/customer/update/@cust.cid"><button>edit</button></a>
+                        </td>
+                        
+                    </tr> 
+                    
+                                   
+        }
+        </tbody>
+            </table>
+    }
+</div>

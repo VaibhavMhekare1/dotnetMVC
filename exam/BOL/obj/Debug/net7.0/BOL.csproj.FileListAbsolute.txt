@@ -1,0 +1,12 @@
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\bin\Debug\net7.0\BOL.deps.json
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\bin\Debug\net7.0\BOL.dll
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\bin\Debug\net7.0\BOL.pdb
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.dll
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\refint\BOL.dll
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\BOL.pdb
+C:\Users\marty\Desktop\dotnet exam\exam\BOL\obj\Debug\net7.0\ref\BOL.dll
